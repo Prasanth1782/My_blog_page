@@ -1,0 +1,247 @@
+body{
+    background-color: #f8eaceaa;
+}
+header{
+    background-color: #fdb435;
+    display: flex;
+    flex-direction: row;
+    height:110px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+header h1{
+    margin-top: 38px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: proja;
+}
+h1 sub{
+    margin-left: 15px;
+    font-size: 17px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    
+}
+header img{
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+nav{
+    margin-left:90px;
+    width:800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    text-align: center;
+    height: 30px;
+    width:100px;
+    border-radius: 20px;
+    align-content: center;
+    font-weight: bold;
+}
+nav select{
+    color: white;
+    background-color: black;
+    height: 30px;
+    width:100px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+nav button{
+    color: white;
+    background-color: rgb(10, 195, 10);
+    height: 30px;
+    width:100px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.outer
+{
+    display: flex;
+    margin-top: 20px;
+    height:580px;
+    
+}
+
+.Sidebar{
+    height:580px;
+    width:350px;
+    background-color : #f8dc91aa;
+    margin-left: 15px;
+    border-radius: 15px;
+   
+}
+
+.Main_blog{
+    height:580px;
+    width:750px;
+    background-color : #f8dc91aa;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.aside{
+    height:580px;
+    width:400px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+#one{
+    height:280px;
+    background-color : #f8dc91aa;
+    border-radius: 15px;
+}
+#two{
+    height: 280px;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color : #f8dc91aa;
+    border-radius: 15px;
+}
+
+
+.recent h2{
+    margin-left: 20px;
+
+}
+.recent a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+
+}
+.recent ul{
+    line-height: 25px;
+}
+
+.time i,p{
+    display: inline-block;
+    height:10px
+}
+.time i{
+    margin-left: 20px;
+    margin-right: 7px;
+}
+.time p{
+    font-size: 18px;
+    color: gray;
+}
+#one img{
+    width:400px;
+    height: 150px;
+
+}
+
+#two img{
+    width:400px;
+    height: 150px;
+}
+#one:hover{
+    cursor: pointer;
+}
+#two:hover{
+    cursor: pointer;
+}
+
+
+.Main_blog img{
+    height:250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width:650px;
+    border-radius: 20px;
+}
+.content{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.read_more{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    padding-right: 20px;
+    margin-top: 60px;
+}
+.read_more a{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+footer{
+    height: 250px;
+    background-color: #fdcb74;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    display: flex;
+}
+.connect{
+    width:300px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    margin-top:30px;
+    margin-left: 60px;
+    
+
+}
+.social{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social i:hover{
+    color: white;
+    transform: scale(1.5,1.5);
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+    font-size: 18px;
+
+}
+
+.quick{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-left: 350px;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.quick a{
+    text-decoration: none;
+    
+}
+.connect p{
+    margin-top: 45px;
+    width:600px;
+    font-weight: 300;
+    font-size: 16px;
+}
